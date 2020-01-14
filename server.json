@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "React",
+      "email": "react@gmail.com",
+      "street": "Av. das Américas, 5500",
+      "suite": "Apto 403",
+      "city": "Rio de Janeiro",
+      "zipcode": 12456789,
+      "phone": "99999-9999"
+    },
+
+    {
+      "id": 2,
+      "name": "React Native",
+      "email": "reactnative@gmail.com",
+      "street": "Av. das Américas, 5500",
+      "suite": "Apto 403",
+      "city": "Rio de Janeiro",
+      "zipcode": 12456789,
+      "phone": "99999-9999"
+    },
+    {
+      "id": 3,
+      "name": "NodeJS",
+      "email": "nodejs@gmail.com",
+      "street": "Av. das Américas, 5500",
+      "suite": "Apto 403",
+      "city": "Rio de Janeiro",
+      "zipcode": 12456789,
+      "phone": "99999-9999"
+    },
+    {
+      "id": 4,
+      "name": "ExpressJS",
+      "email": "expressjs@gmail.com",
+      "street": "Av. das Américas, 5500",
+      "suite": "Apto 403",
+      "city": "Rio de Janeiro",
+      "zipcode": 12456789,
+      "phone": "99999-9999"
+    },
+    {
+      "id": 5,
+      "name": "AdonisJS",
+      "email": "adonisjs@gmail.com",
+      "street": "Av. das Américas, 5500",
+      "suite": "Apto 403",
+      "city": "Rio de Janeiro",
+      "zipcode": 12456789,
+      "phone": "99999-9999"
+    }
+  ]
+}
