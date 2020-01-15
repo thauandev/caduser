@@ -23,7 +23,7 @@ function Create() {
 
   const handleSubmit = user => {
     dispatch({
-      type: 'ADD_TO_CART',
+      type: 'ADD_TO_LIST',
       user,
     });
   };

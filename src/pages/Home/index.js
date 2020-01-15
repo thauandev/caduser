@@ -1,10 +1,11 @@
 /* eslint-disable react/state-in-constructor */
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import api from '../../services/api';
 import { Container } from './styles';
 
-export default class Home extends Component {
+class Home extends Component {
   state = {
     users: [],
   };
@@ -19,8 +20,8 @@ export default class Home extends Component {
     const { users } = this.state;
     return (
       <Container>
-        {users.map(user => (
-          <table>
+        <table>
+          {users.map(user => (
             <tbody key={user.id}>
               <tr>
                 <td>&nbsp;{user.id}</td>
@@ -36,8 +37,8 @@ export default class Home extends Component {
                 </td>
               </tr>
             </tbody>
-          </table>
-        ))}
+          ))}
+        </table>
         <Link to="/create" className="create">
           Create User
         </Link>
@@ -45,3 +46,5 @@ export default class Home extends Component {
     );
   }
 }
+
+export default connect()(Home);
