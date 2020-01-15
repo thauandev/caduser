@@ -6,18 +6,17 @@ import api from '../../services/api';
 import { Container } from './styles';
 
 class Home extends Component {
-  state = {
-    users: [],
-  };
-
   async componentDidMount() {
     const response = await api.get('users');
 
-    this.setState({ users: response.data });
+    this.props.store.dispatch({
+      type: 'ADD_USERS_LIST',
+      payload: response.data,
+    });
   }
 
   render() {
-    const { users } = this.state;
+    const { users } = this.props;
     return (
       <Container>
         <table>
