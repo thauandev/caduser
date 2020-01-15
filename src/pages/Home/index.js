@@ -47,4 +47,8 @@ class Home extends Component {
   }
 }
 
-export default connect()(Home);
+const mapStateToProps = state => ({
+  users: state.list,
+});
+
+export default connect(mapStateToProps)(Home);
