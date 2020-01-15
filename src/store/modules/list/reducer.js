@@ -3,7 +3,7 @@ export default function list(state = [], action) {
     case 'ADD_TO_LIST':
       return [...state, action.user];
     case 'ADD_USERS_LIST':
-      return [...action.data];
+      return [...action.payload];
     default:
       return state;
   }

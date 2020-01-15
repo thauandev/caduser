@@ -9,10 +9,7 @@ class Home extends Component {
   async componentDidMount() {
     const response = await api.get('users');
 
-    this.props.store.dispatch({
-      type: 'ADD_USERS_LIST',
-      payload: response.data,
-    });
+    this.props.addUsersList(response.data);
   }
 
   render() {
@@ -50,4 +47,10 @@ const mapStateToProps = state => ({
   users: state.list,
 });
 
-export default connect(mapStateToProps)(Home);
+const mapDispatchToProps = dispatch => ({
+  addUsersList: payload => {
+    dispatch({ type: 'ADD_USERS_LIST', payload });
+  },
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home);
