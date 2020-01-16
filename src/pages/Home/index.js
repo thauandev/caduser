@@ -33,7 +33,7 @@ class Home extends Component {
               </tr>
               <tr>
                 <td>
-                  <button type="button" onClick={handleDelete()}>
+                  <button onClick={this.handleDelete} type="button">
                     Delete
                   </button>
                 </td>
