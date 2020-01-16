@@ -5,7 +5,7 @@ export default function list(state = [], action) {
     case 'ADD_USERS_LIST':
       return [...action.payload];
     case 'DELETE_USER_LIST':
-      return [...action.payload];
+      return [...state.filter(item => item.id !== action.payload.id)];
     default:
       return state;
   }

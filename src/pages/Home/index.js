@@ -13,7 +13,7 @@ class Home extends Component {
 
   async handleDelete(user) {
     try {
-      await api.delete('http://localhost:3333/users', user);
+      await api.delete(`http://localhost:3333/users/${user.id}`, user);
       this.props.deleteUserList(user);
     } catch (error) {
       console.log(error);
@@ -33,7 +33,7 @@ class Home extends Component {
               </tr>
               <tr>
                 <td>
-                  <button onClick={this.handleDelete} type="button">
+                  <button onClick={() => this.handleDelete(user)} type="button">
                     Delete
                   </button>
                 </td>

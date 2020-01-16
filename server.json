@@ -19,56 +19,6 @@
       "city": "Rio de Janeiro",
       "zipcode": 12456789,
       "phone": "99999-9999"
-    },
-    {
-      "id": 3,
-      "name": "NodeJS",
-      "email": "nodejs@gmail.com",
-      "street": "Av. das Américas, 5500",
-      "suite": "Apto 403",
-      "city": "Rio de Janeiro",
-      "zipcode": 12456789,
-      "phone": "99999-9999"
-    },
-    {
-      "id": 4,
-      "name": "ExpressJS",
-      "email": "expressjs@gmail.com",
-      "street": "Av. das Américas, 5500",
-      "suite": "Apto 403",
-      "city": "Rio de Janeiro",
-      "zipcode": 12456789,
-      "phone": "99999-9999"
-    },
-    {
-      "id": 5,
-      "name": "AdonisJS",
-      "email": "adonisjs@gmail.com",
-      "street": "Av. das Américas, 5500",
-      "suite": "Apto 403",
-      "city": "Rio de Janeiro",
-      "zipcode": 12456789,
-      "phone": "99999-9999"
-    },
-    {
-      "phone": 21980671230,
-      "zipcode": "20785-210",
-      "city": "Rio de Janeiro",
-      "suite": "86",
-      "street": "Rua: Velinda Maurício da Fonseca, 86",
-      "email": "lyssaquevedo@gmail.com",
-      "name": "Lyssa Quevedo de Carvalho Inácio",
-      "id": 10
-    },
-    {
-      "phone": 21980671230,
-      "zipcode": "20785-210",
-      "city": "Rio de Janeiro",
-      "suite": "86",
-      "street": "Rua: Velinda Maurício da Fonseca, 86",
-      "email": "lyssaquevedo@gmail.com",
-      "name": "Lyssa Quevedo de Carvalho Inácio",
-      "id": 15
     }
   ]
 }
