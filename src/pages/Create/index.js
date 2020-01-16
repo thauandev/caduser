@@ -22,13 +22,17 @@ function Create() {
   const dispatch = useDispatch();
 
   const handleSubmit = async user => {
-    dispatch({
-      type: 'ADD_TO_LIST',
-      user,
-    });
-    await api.post(user);
-  };
+    try {
+      await api.post('http://localhost:3333/users', user);
 
+      dispatch({
+        type: 'ADD_TO_LIST',
+        user,
+      });
+    } catch (error) {
+      console.log(error);
+    }
+  };
   return (
     <Container>
       <h2>Formulário</h2>

@@ -4,6 +4,8 @@ export default function list(state = [], action) {
       return [...state, action.user];
     case 'ADD_USERS_LIST':
       return [...action.payload];
+    case 'DELETE_USER_LIST':
+      return [...action.payload];
     default:
       return state;
   }

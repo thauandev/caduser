@@ -11,6 +11,15 @@ class Home extends Component {
     this.props.addUsersList(response.data);
   }
 
+  async handleDelete(user) {
+    try {
+      await api.delete('http://localhost:3333/users', user);
+      this.props.deleteUserList(user);
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
   render() {
     const { users } = this.props;
     return (
@@ -24,7 +33,9 @@ class Home extends Component {
               </tr>
               <tr>
                 <td>
-                  <button>Delete</button>
+                  <button type="button" onClick={handleDelete()}>
+                    Delete
+                  </button>
                 </td>
                 <td>
                   &nbsp;
@@ -49,6 +60,9 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
   addUsersList: payload => {
     dispatch({ type: 'ADD_USERS_LIST', payload });
+  },
+  deleteUserList: payload => {
+    dispatch({ type: 'DELETE_USER_LIST', payload });
   },
 });
 

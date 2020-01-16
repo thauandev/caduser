@@ -10,7 +10,6 @@
       "zipcode": 12456789,
       "phone": "99999-9999"
     },
-
     {
       "id": 2,
       "name": "React Native",
@@ -50,6 +49,26 @@
       "city": "Rio de Janeiro",
       "zipcode": 12456789,
       "phone": "99999-9999"
+    },
+    {
+      "phone": 21980671230,
+      "zipcode": "20785-210",
+      "city": "Rio de Janeiro",
+      "suite": "86",
+      "street": "Rua: Velinda Maurício da Fonseca, 86",
+      "email": "lyssaquevedo@gmail.com",
+      "name": "Lyssa Quevedo de Carvalho Inácio",
+      "id": 10
+    },
+    {
+      "phone": 21980671230,
+      "zipcode": "20785-210",
+      "city": "Rio de Janeiro",
+      "suite": "86",
+      "street": "Rua: Velinda Maurício da Fonseca, 86",
+      "email": "lyssaquevedo@gmail.com",
+      "name": "Lyssa Quevedo de Carvalho Inácio",
+      "id": 15
     }
   ]
 }
