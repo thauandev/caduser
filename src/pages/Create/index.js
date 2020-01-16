@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { Form, Input } from '@rocketseat/unform';
 import * as Yup from 'yup';
-
+import api from '../../services/api';
 import { Container } from './styles';
 
 const schema = Yup.object().shape({
@@ -21,11 +21,12 @@ const schema = Yup.object().shape({
 function Create() {
   const dispatch = useDispatch();
 
-  const handleSubmit = user => {
+  const handleSubmit = async user => {
     dispatch({
       type: 'ADD_TO_LIST',
       user,
     });
+    await api.post(user);
   };
 
   return (
