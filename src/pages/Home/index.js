@@ -39,7 +39,9 @@ class Home extends Component {
                 </td>
                 <td>
                   &nbsp;
-                  <button>Edit</button>
+                  <Link to="/edit">
+                    <button>Edit</button>
+                  </Link>
                 </td>
               </tr>
             </tbody>

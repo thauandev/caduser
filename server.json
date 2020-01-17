@@ -1,14 +1,14 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "React",
-      "email": "react@gmail.com",
-      "street": "Av. das Américas, 5500",
-      "suite": "Apto 403",
-      "city": "Rio de Janeiro",
-      "zipcode": 12456789,
-      "phone": "99999-9999"
+      "phone": 0,
+      "zipcode": "000000",
+      "city": "teste",
+      "suite": "teste",
+      "street": "teste",
+      "email": "teste@email.com",
+      "name": "Minha stack",
+      "id": 1
     },
     {
       "id": 2,
@@ -19,6 +19,16 @@
       "city": "Rio de Janeiro",
       "zipcode": 12456789,
       "phone": "99999-9999"
+    },
+    {
+      "phone": 0,
+      "zipcode": "0000000",
+      "city": "teste",
+      "suite": "teste",
+      "street": "teste",
+      "email": "teste@email.com",
+      "name": "AdonisJS",
+      "id": 3
     }
   ]
 }
