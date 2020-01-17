@@ -16,7 +16,7 @@ A primeira e segunda colunas são **ID** e **Nome**, respectivamente.
 A última célula de cada linha tem opções de **excluir** e **editar** o usuário correspondente.
 Por último, a página tem um botão de **"criar novo usuário"**, que ao clicar, exiba a página de criação.
 
-**Fake API**
+**Fake API:**
 A aplicação é carregada com usuários pré cadastrados por uma Fake API **json-server**.
 
 ## Criação de usuário
