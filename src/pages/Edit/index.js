@@ -18,7 +18,7 @@ const schema = Yup.object().shape({
   phone: Yup.number(),
 });
 
-function Create() {
+function Edit() {
   const dispatch = useDispatch();
 
   const handleSubmit = async user => {
@@ -54,4 +54,4 @@ function Create() {
   );
 }
 
-export default Create;
+export default Edit;
