@@ -1,16 +1,6 @@
 {
   "users": [
     {
-      "phone": 0,
-      "zipcode": "000000",
-      "city": "teste",
-      "suite": "teste",
-      "street": "teste",
-      "email": "teste@email.com",
-      "name": "Minha stack",
-      "id": 1
-    },
-    {
       "id": 2,
       "name": "React Native",
       "email": "reactnative@gmail.com",
@@ -29,6 +19,16 @@
       "email": "teste@email.com",
       "name": "AdonisJS",
       "id": 3
+    },
+    {
+      "phone": 0,
+      "zipcode": "00000",
+      "city": "teste",
+      "suite": "teste",
+      "street": "teste",
+      "email": "teste@email.com",
+      "name": "ReactJS",
+      "id": 1
     }
   ]
 }

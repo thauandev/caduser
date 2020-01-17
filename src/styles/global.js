@@ -20,5 +20,19 @@ body, input. button {
 
 button {
   cursor: pointer;
+  background: #7159c1;
+  border: 0;
+  padding: 3px 10px;
+  border-radius: 0px;
 }
+
+input {
+
+    border: none solid;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-top: 3px;
+
+  }
 `;
