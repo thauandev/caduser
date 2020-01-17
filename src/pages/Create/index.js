@@ -23,7 +23,7 @@ function Create() {
 
   const handleSubmit = async user => {
     try {
-      await api.post('http://localhost:3333/users', user);
+      await api.post('/users', user);
 
       dispatch({
         type: 'ADD_TO_LIST',

@@ -22,12 +22,12 @@
     },
     {
       "phone": 0,
-      "zipcode": "00000",
+      "zipcode": "000000",
       "city": "teste",
       "suite": "teste",
       "street": "teste",
       "email": "teste@email.com",
-      "name": "ReactJS",
+      "name": "React",
       "id": 1
     }
   ]

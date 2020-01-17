@@ -23,7 +23,7 @@ function Edit() {
 
   const handleSubmit = async user => {
     try {
-      await api.put(`http://localhost:3333/users/${user.id}`, user);
+      await api.put(`/users/${user.id}`, user);
 
       dispatch({
         type: 'UPDATE_TO_LIST',
